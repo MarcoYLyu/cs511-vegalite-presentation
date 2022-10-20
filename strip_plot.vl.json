@@ -1,0 +1,15 @@
+{
+    "data": { "url": "data/bridges1.csv" },
+    "mark": "tick",
+    "encoding": {
+        "x": {
+            "field": "length",
+            "type": "quantitative",
+            "axis": { "title": "temp", "grid": false }
+        },
+        "y": {
+            "field": "river",
+            "type": "nominal"
+        }
+    }
+}

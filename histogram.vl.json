@@ -1,0 +1,23 @@
+{
+    "data": {"url": "data/bridges1.csv"},
+    "repeat": [
+        "purpose",
+        "river"
+    ],
+    "spec": {
+        "mark": {
+            "type": "bar",
+            "width": { "band": 0.6 },
+            "binSpacing": 0
+        },
+        "encoding": {
+            "x": {
+                "field": {"repeat": "repeat"}
+            },
+            "y": {
+                "aggregate": "count",
+                "title": "Count"
+            }
+        }
+    }
+}

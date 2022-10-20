@@ -1,0 +1,16 @@
+{
+    "data": {"url": "data/bridges1.csv"},
+    "mark": {
+        "type": "boxplot"
+    },
+    "encoding": {
+        "x": {
+            "field": "length",
+            "type": "quantitative"
+        },
+        "y": {
+            "field": "purpose",
+            "type": "nominal"
+        }
+    }
+}
